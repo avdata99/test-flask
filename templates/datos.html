@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href='{{ url_for("static", filename="base.css") }}'>
+    <script src='{{ url_for("static", filename="base.js") }}'></script>
+    <title>{{ site_title }}</title>
+</head>
+<body>
+    <h2>{{ site_title }}</h2>
+    <p>
+      Precio de {{ symbol }} a {{ to_symbol }}: <b>{{ data.lastPrice }}</b>
+    </p>
+    <p>
+      Otros datos: {{ data }}
+    </p>
+    <p>
+      <a href="{{ url_for('index') }}">Volver al inicio</a>
+    </p>
+</body>
+</html>

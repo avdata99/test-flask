@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href='{{ url_for("static", filename="base.css") }}'>
+    <script src='{{ url_for("static", filename="base.js") }}'></script>
+    <title>{{ site_title }}</title>
+</head>
+<body>
+    <h2>{{ site_title }}</h2>
+    <p class="algo algo2">
+        Hola Usuario
+    </p>
+    <p id="algun-id">
+        Hola con ID en algun-id
+    </p>
+</body>
+</html>

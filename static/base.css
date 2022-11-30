@@ -1,0 +1,20 @@
+h2 {
+    color: #064096;
+    font-size: 1.2em;
+}
+
+p {
+    color: #05624c;
+    font-size: 1.1em;
+}
+
+.algo {
+    font-weight: bold;
+}
+
+#algun-id {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #222222;
+    background-color: #bbbbbb33;
+}
